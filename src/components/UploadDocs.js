@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Button, TextField ,Grid,Typography} from "@mui/material";
 
 
-const UploadDocs = ( {onPreview} ) => {
+const UploadDocs = ( {onPreview} ) => {     //Props fom the PreviewModal is being used here
     return (
       <Box>
         <Grid container spacing={2} alignItems="center">
