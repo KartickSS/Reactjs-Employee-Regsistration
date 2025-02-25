@@ -3,9 +3,9 @@ import { Box, Button, TextField ,Grid,Typography} from "@mui/material";
 
 
 const UploadDocs = ( {onPreview} ) => {     //Props fom the PreviewModal is being used here
-    return (
+    return (                                //This is the comment that i have added in test2 branch 
       <Box>
-        <Grid container spacing={2} alignItems="center">
+        <Grid container spacing={2} alignItems="center"> 
           
           <Grid item xs={6}>
             <Typography variant="h6">Resume</Typography>
